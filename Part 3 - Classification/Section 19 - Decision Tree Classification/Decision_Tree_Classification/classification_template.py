@@ -22,7 +22,9 @@ X_test = sc.transform(X_test)
 
 # Fitting classifier to the Training set
 # Create your classifier here
-
+from sklearn.tree import DecisionTreeClassifier
+classifier= DecisionTreeClassifier(criterion='entropy', random_state=0)
+classifier.fit(X_train,y_train)
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
 
@@ -65,3 +67,6 @@ plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
 plt.show()
+from sklearn.metrics import accuracy_score
+q=accuracy_score(y_test, y_pred)
+print(q)
