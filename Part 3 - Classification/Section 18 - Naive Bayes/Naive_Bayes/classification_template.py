@@ -22,7 +22,9 @@ X_test = sc.transform(X_test)
 
 # Fitting classifier to the Training set
 # Create your classifier here
-
+from sklearn.naive_bayes import GaussianNB
+classifier= GaussianNB()
+classifier.fit(X_train, y_train)
 # Predicting the Test set results
 y_pred = classifier.predict(X_test)
 
