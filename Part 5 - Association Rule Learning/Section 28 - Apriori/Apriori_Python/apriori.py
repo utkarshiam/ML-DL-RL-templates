@@ -17,3 +17,4 @@ rules = apriori(transactions, min_support = 0.003, min_confidence = 0.2, min_lif
 
 # Visualising the results
 results = list(rules)
+print(results)
