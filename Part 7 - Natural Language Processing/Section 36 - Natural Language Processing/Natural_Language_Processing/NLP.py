@@ -14,3 +14,5 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 review = re.sub('[^a-zA-Z]', ' ', dataset['Review'][0])
 review= review.lower()
+review=review.split()
+review= [word for word in review if not word in stopwords.words('english')]
