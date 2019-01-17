@@ -13,3 +13,4 @@ nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 review = re.sub('[^a-zA-Z]', ' ', dataset['Review'][0])
+review= review.lower()
