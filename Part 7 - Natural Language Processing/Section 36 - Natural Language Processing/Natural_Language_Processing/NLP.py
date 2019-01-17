@@ -15,4 +15,6 @@ from nltk.stem.porter import PorterStemmer
 review = re.sub('[^a-zA-Z]', ' ', dataset['Review'][0])
 review= review.lower()
 review=review.split()
-review= [word for word in review if not word in set(stopwords.words('english'))]
+ps= PorterStemmer()
+review= [ps.stem(word) for word in review if not word in set(stopwords.words('english'))]
+review= ' '.join(review)
