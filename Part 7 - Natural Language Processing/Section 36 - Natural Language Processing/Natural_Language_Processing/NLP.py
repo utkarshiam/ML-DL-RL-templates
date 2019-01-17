@@ -9,7 +9,7 @@ dataset = pd.read_csv("Restaurant_Reviews.tsv", delimiter='\t', quoting=3)
 # Cleaning the texts
 import re
 import nltk
-nltk.download('stopwords')
+nltk.download('popular')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 review = re.sub('[^a-zA-Z]', ' ', dataset['Review'][0])
