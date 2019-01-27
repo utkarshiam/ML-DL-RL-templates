@@ -12,3 +12,6 @@ y = dataset.iloc[:, 13].values
 #categorical data delete
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 labelencoder_X_1 = LabelEncoder()
+labelencoder_X_2 = LabelEncoder()
+X[:, 1] = labelencoder_X_1.fit_transform(X[:, 1])
+X[:, 2] = labelencoder_X_2.fit_transform(X[:, 2])
