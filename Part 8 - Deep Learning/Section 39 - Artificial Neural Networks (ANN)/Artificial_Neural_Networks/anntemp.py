@@ -35,3 +35,6 @@ import keras
 from keras.models import Sequential
 from keras.layers import Dense
 
+
+# Initialising the ANN because this a classification problem
+classifier = Sequential()
