@@ -38,3 +38,6 @@ from keras.layers import Dense
 
 # Initialising the ANN because this a classification problem
 classifier = Sequential()
+
+# Adding the input layer and the first hidden layer
+classifier.add(Dense(output_dim = 6, init = 'uniform', activation = 'relu', input_dim = 11))
