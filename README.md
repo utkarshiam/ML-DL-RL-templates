@@ -8,7 +8,7 @@ important research papers and limks :
 # https://iamtrask.github.io/2015/07/27/python-network-part2/- gradient descent!
 
 
-Installing Tensorflow/theano/keras provided you are working with anaconda!
+Installing Tensorflow/theano/keras provided you are working with anaconda and python 3.5.2!
 so here it goes
 
 -Below are the installation instructions (you will notice that only Keras needs to be installed, this is normal, since the Keras package integrates TensorFlow):
@@ -26,3 +26,11 @@ else if()
   Then inside the anaconda prompt, copy-paste and enter the following line command:
 
       -conda install -c conda-forge keras
+
+install keras packages with pip, like:
+      
+      -pip install keras-applications
+      
+      -pip install keras-preprocessing
+      
+And you are ready to use and train YOUR NEURAL NETS!    
