@@ -33,4 +33,8 @@ install keras packages with pip, like:
       
       -pip install keras-preprocessing
       
-And you are ready to use and train YOUR NEURAL NETS!    
+And you are ready to use and train YOUR NEURAL NETS!  
+
+IMPORTANT read next: 
+# https://stats.stackexchange.com/questions/226923/why-do-we-use-relu-in-neural-networks-and-how-do-we-use-it
+Answers the question, "why do we use linear activation functions like ReLU when working with CNN?"
