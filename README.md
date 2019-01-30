@@ -36,5 +36,6 @@ install keras packages with pip, like:
 And you are ready to use and train YOUR NEURAL NETS!  
 
 IMPORTANT read next: 
-# https://stats.stackexchange.com/questions/226923/why-do-we-use-relu-in-neural-networks-and-how-do-we-use-it
-Answers the question, "why do we use linear activation functions like ReLU when working with CNN?"
+# 1 https://stats.stackexchange.com/questions/226923/why-do-we-use-relu-in-neural-networks-and-how-do-we-use-it
+# 2 https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
+1 Answers the question, "why do we use linear activation functions like ReLU when working with CNN?"
