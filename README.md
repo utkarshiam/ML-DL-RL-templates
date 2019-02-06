@@ -42,3 +42,7 @@ IMPORTANT read next:
 
 installation guide for XGBoost:
  http://xgboost.readthedocs.io/en/latest/build.html
+ 
+ and conda problems..
+ so
+ $ conda install -c conda-forge xgboost=0.6a2
