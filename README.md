@@ -39,3 +39,10 @@ IMPORTANT read next:
 # 1 https://stats.stackexchange.com/questions/226923/why-do-we-use-relu-in-neural-networks-and-how-do-we-use-it
 # 2 https://adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
 1 Answers the question, "why do we use linear activation functions like ReLU when working with CNN?"
+
+installation guide for XGBoost:
+ http://xgboost.readthedocs.io/en/latest/build.html
+ 
+ and conda problems..
+ so
+ $ conda install -c conda-forge xgboost=0.6a2
