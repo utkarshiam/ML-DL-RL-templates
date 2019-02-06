@@ -40,7 +40,7 @@ accuracies.std()
 
 # Applying Grid Search to find the best model and the best parameters
 from sklearn.grid_search import GridSearchCV
-parameters = [{'C': [1, 10, 100, 1000], 'kernel': ['linear']},
+parameters = [{'C': [1, 2, 100, 1000], 'kernel': ['linear']},
               {'C': [1, 10, 100, 1000], 'kernel': ['rbf'], 'gamma': [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]}]
 grid_search = GridSearchCV(estimator = classifier,
                            param_grid = parameters,
